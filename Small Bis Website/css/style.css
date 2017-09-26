@@ -97,7 +97,7 @@ nav ul li a
 nav ul li a:hover
 {
     background-color: purple;
-    
+    color: white;
     
     
 }
@@ -108,5 +108,134 @@ color: black;
     
     
 }
+
+
+footer{
+ 
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+.keepOpen
+{
+    clear: both;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index.html*/
+
+
+
+
+img#MainPic
+{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border: 15px dashed seagreen;
+    float: left
+    
+}
+
+
+
+p#pHome
+{
+    float: left;
+    width:55%;
+    padding-left: 16px;
+    
+}
+
+
+p#pNFH
+{
+    float: left;
+    
+}
+
+
+
+
+
+h2#h2Home
+{
+display: block;
+    float: none;
+    padding-left: 500px;
+    
+    
+    
+    
+    
+}
+
+
+
+
+/*about*/
+
+
+
+
+img#MainPicAbout
+{
+     width: 600px;
+    display: block;
+    margin: auto;
+    border: 5px inset yellowgreen;
+    float: left;
+    
+    
+    
+    
+}
+p#pAbout
+{
+    width: 39%;
+    float: left;
+    padding-left: 12px;
+    
+}
+
+
+
+
+
+
 
 
