@@ -26,16 +26,30 @@ header
     width: 100%;
     height: 150px;
     margin: 0;
-    
+    background-image: url('../images/wmbannerpic.jpg');
+    background-position: center;
+    background-size: cover;
+
+
 }
 header h1
 {
   text-align: center;
 padding-top: 50px;
-   color: darkblue;
+   color:whitesmoke;
     text-shadow: 1px 1px 100px;
     margin: 0;
     
+
+/*  font-family: 'Julius Sans One', sans-serif;*/
+
+/* font-family: 'Bangers', cursive;*/
+
+   font-family: 'Press Start 2P', cursive;
+
+/*font-family: 'Six Caps', sans-serif;*/
+
+
     
     
 }
@@ -178,7 +192,7 @@ p#pHome
     float: left;
     width:55%;
     padding-left: 16px;
-    
+    margin-top: 10px;
 }
 
 
@@ -197,8 +211,10 @@ h2#h2Home
 display: block;
     float: none;
     padding-left: 500px;
-    
-    
+    margin-bottom: 0;
+    margin-top: 20px;
+     font-family: 'Press Start 2P', cursive;
+    color: red;
     
     
     
@@ -208,6 +224,33 @@ display: block;
 
 
 /*about*/
+
+
+
+
+
+
+h2#h2About
+{
+    
+    display: block;
+    float: none;
+   text-align: right;
+    margin-bottom: 0;
+    margin-top: 20px;
+     font-family: 'Press Start 2P', cursive;
+    color: red;
+    font-size: 20px;
+    padding-right: 50px;
+    
+    
+    
+    
+    
+    
+}
+
+
 
 
 
@@ -231,6 +274,7 @@ p#pAbout
     padding-left: 12px;
     
 }
+
 
 
 
