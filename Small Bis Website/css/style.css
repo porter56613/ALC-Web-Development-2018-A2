@@ -59,8 +59,9 @@ nav
     background-color: black;
     clear: both;
     margin: 0;
-    
-    
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px gray;
     
     
     
@@ -275,9 +276,61 @@ p#pAbout
     
 }
 
+div#gallery
+{
+    width: 100%;
+    
+    
+    
+    
+    
+    
+    
+}
+
+figure{
+    width: 250px;
+    
+    float: left;
+    background-color: black;
+    box-shadow: 1px 1px 10px gray;
+background: linear-gradient(blue,salmon);
 
 
 
+}
+
+figure img
+{
+   display: block;
+    width: 200px;
+    margin: auto;
+    
+    
+    
+    
+}
+h2#h2Produce
+{
+    text-align: center;
+    color: red;
+   font-family: 'Press Start 2P', cursive;
+    
+    
+    
+    
+    
+}
+figcaption
+{
+    text-align: center;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    
+    
+    
+}
 
 
 
