@@ -331,8 +331,44 @@ figcaption
     
     
 }
+h2#h2Contact
+{
+    color: red;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    
+    
+    
+}
+h2#h2GM
+{
+    color: red;
+    text-align: center;
+        font-family: 'Press Start 2P', cursive;
 
+    
+    
+    
+}
 
+object#choGame
+{
+    width: 100%;
+    height: 1020px;
+    display: block;
+    margin: auto;
+    
+    
+    
+}
+h2#h2game
+{
+    color: red;
+    text-align: center;
+            font-family: 'Press Start 2P', cursive;
 
+    
+    
+}
 
 
