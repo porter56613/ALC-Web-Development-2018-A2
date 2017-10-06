@@ -62,7 +62,7 @@ nav
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
     box-shadow: 2px 2px 2px gray;
-    
+
     
     
 }
@@ -368,7 +368,48 @@ h2#h2game
             font-family: 'Press Start 2P', cursive;
 
     
+  
+    /*contact*/
+    
+    
+}
+form#FormContact
+{
+    margin-left: 20px;
+    
+
+    
+    
+    
+    
+}
+form input,textarea
+{
+    color: red;
+
+margin-bottom: 10px;
+   cursor: text; 
+text-indent: 5px;
+    
+    
+    
+    
+    
     
 }
 
+button#contactButton
+{
+   width: 150px;
+    height: 25px;
+    font-family: 'Press Start 2P', cursive;
+color: red;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    box-shadow: 1px 1px 20px black;
+    
+    
+    
+    
+}
 
