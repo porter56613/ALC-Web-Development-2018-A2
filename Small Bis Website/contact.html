@@ -3,9 +3,37 @@
 
 
     <head>
-        <title>Crazy Bob's Watermelon Patch </title>
+        <title>Crazy Jimmy's Watermelon Patch </title>
     
     
+        
+             <script>
+  function initMap() {
+    var mapCemetery = {lat: 40.131846, lng: -111.586037};
+    var center = mapCemetery;
+  var mapSettings = {
+    zoom: 18,
+    center: center,
+    tilt:0,
+    mapTypeId: "hybrid"
+
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapSettings);
+var marker =new google.maps.Marker({
+    
+  position:mapCemetery,
+  map:map,
+  title: "CRAZY JIMMY'S FARM"
+
+})
+  
+  }
+  
+  
+  
+  </script>
+        
+        
     </head>
     
    
@@ -28,7 +56,7 @@
 <link href="https://fonts.googleapis.com/css?family=Bangers|Julius+Sans+One|Press+Start+2P|Six+Caps" rel="stylesheet">
 
             <link href="css/style.css" rel=stylesheet>
-          
+           
             <nav>
             <ul>
                 <li><a href="index.html"> Home</a></li>
@@ -79,15 +107,19 @@
              
                 
             </form>
+            <br>
+            <br>
             
             
             
+                       <div id="map" style="width: 100%; height: 600px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7X3GfLN9cbUh0RSjBpJUFuD0B4afaNIA&callback=initMap"></script>
+ 
             
             
-            
-            
-            
+            <br>
             </div>
+            <br>
             
             
             <footer>

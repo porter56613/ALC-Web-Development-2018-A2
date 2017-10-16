@@ -188,12 +188,13 @@ img#MainPic
 
 
 
-p#pHome
+h3#pHome
 {
     float: left;
-    width:55%;
-    padding-left: 16px;
-    margin-top: 10px;
+    width: 55%;
+    padding-left: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+   
 }
 
 
@@ -305,10 +306,11 @@ background: linear-gradient(blue,salmon);
 
 figure img
 {
-   display: block;
+   
+    display: block;
     width: 200px;
     margin: auto;
-    
+    margin-top: 15px;
     
     
     
@@ -417,4 +419,19 @@ color: red;
 }
 
 
-
+button#btn
+{
+    float:left;
+    
+    
+    
+}
+h3#pAbout
+{
+    width: 39%;
+    float: left;
+    padding-left: 12px; 
+    
+    
+    
+}
