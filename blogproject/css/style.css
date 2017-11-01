@@ -1,0 +1,50 @@
+/*Reset*/
+html,body,div,h1,h2,h3,h4,h5,p,ul,ol,li
+{
+    
+    
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+/*universal*/
+body{
+background-color: black;
+    
+    
+    
+    
+}
+
+
+
+#container
+{
+
+    background-color: bisque;
+    width: 300px;
+    
+    
+    
+}
+h1{
+    color: brown;
+    
+    
+    
+}
+p
+{
+    
+    color: rebeccapurple;
+    
+}
+.red
+{
+    color: red;
+    
+    
+}
