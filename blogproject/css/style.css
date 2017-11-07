@@ -5,46 +5,84 @@ html,body,div,h1,h2,h3,h4,h5,p,ul,ol,li
     
     margin: 0;
     padding: 0;
-    
-    
-    
-}
-
-/*universal*/
-body{
-background-color: black;
-    
-    
+    font-family: 'Cinzel Decorative', cursive;
     
     
 }
-
-
-
-#container
+body
 {
-
     background-color: bisque;
-    width: 300px;
     
-    
-    
-}
-h1{
-    color: brown;
     
     
     
 }
-p
+div#container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    background-color: burlywood;
+    
+}
+header#header1
 {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    height: 300px;
+}
+/*bloggy posty */
+div#blogPost
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: lightgray;
+    box-shadow: 3px 3px 3px black;
+
+
+    padding: 5px;
+    margin: 15px 0;
+}
+img#postImg
+{
+    align-self: flex-start;
+    display: block;
+   
     
-    color: rebeccapurple;
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    
     
 }
-.red
+h3#postTitle
 {
-    color: red;
+    align-self: auto;
     
+    
+    
+}
+div#postBody
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+h5#postTime
+{
+    color: dodgerblue;
+    
+    
+}
+p#postText
+{
+    font-family: sans-serif;
+    font-size: 1em;
     
 }
